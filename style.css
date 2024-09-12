@@ -22,8 +22,8 @@ h1>span {
     color: var(--orange);
 }
 
-section {
-    width: 100%;
+main {
+    width: 90%;
     max-width: 1295px;
     margin: auto;
 }
@@ -35,11 +35,14 @@ section {
     margin-top: 100px;
 }
 
+.atelier>*{
+    width: 90%;
+    margin: auto;
+}
+
 .atelier>h2 {
     font-size: 32px;
     color: var(--blue);
-    width: 90%;
-    margin: auto;
     padding: 24px 0;
 }
 
@@ -51,8 +54,6 @@ section {
     color: var(--blue);
     font-size: 32px;
     text-align: center;
-    width: 90%;
-    margin: auto;
     margin-top: 32px;
 }
 
@@ -63,7 +64,6 @@ section {
 .atelier>p {
     color: var(--blue);
     font-size: 32px;
-    width: 90%;
     margin: 32px auto;
 }
 
@@ -82,8 +82,6 @@ section {
     justify-content: space-between;
     padding: 15px;
     align-items: center;
-    width: 90%;
-    margin: auto;
     background-color: var(--blue);
 }
 
@@ -100,7 +98,6 @@ section {
 /* Atelier 2 */
 
 .atelier:nth-child(2)>.carousel {
-    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 8px;
@@ -120,7 +117,6 @@ section {
 .atelier:nth-child(2)>.carousel>.card>p {
     margin: auto;
     min-height: 92px;
-    width: 90%;
     font-size: 13px;
 }
 
