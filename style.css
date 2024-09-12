@@ -335,6 +335,7 @@ html {
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .svg-container {
@@ -344,7 +345,9 @@ html {
 }
 
 .service-detail>footer>button {
-    width: 181px;
+    min-width: fit-content;
+    width: 100%;
+    max-width: 181px;
     color: #fff;
     border-radius: 5px;
     padding: 10px;
