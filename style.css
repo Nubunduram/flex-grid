@@ -11,11 +11,12 @@ html {
 }
 
 .home-title {
+    margin-top: 78px;
+
     color: var(--blue);
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
-    margin-top: 78px;
 }
 
 .home-title>span {
@@ -81,9 +82,11 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 15px;
     align-items: center;
+    padding: 15px;
+
     background-color: var(--blue);
+    
     font-weight: 600;
 }
 
@@ -96,8 +99,9 @@ html {
 .workshop:nth-child(1)>.nav>ul {
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.25rem;
     gap: 29px;
+
+    font-size: 1.25rem;
 }
 
 /* Atelier 2 */
@@ -111,6 +115,7 @@ html {
 .workshop:nth-child(2)>.carousel>.card {
     display: grid;
     gap: 8px;
+
     border: solid 4px var(--orange);
     border-radius: 15px;
 }
@@ -133,9 +138,11 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     width: 100%;
     margin: auto;
     padding: 11px 15px;
+
     color: var(--orange);
     font-size: 1.25rem;
     font-weight: 600;
