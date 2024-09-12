@@ -79,6 +79,7 @@ html {
 
 .workshop:nth-child(1)>.nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 15px;
     align-items: center;
@@ -94,6 +95,7 @@ html {
 
 .workshop:nth-child(1)>.nav>ul {
     display: flex;
+    flex-wrap: wrap;
     font-size: 1.25rem;
     gap: 29px;
 }
@@ -141,4 +143,18 @@ html {
 
 .workshop:nth-child(2)>.carousel>.card>footer>p:nth-child(2) {
     font-size: 2rem;
-} 
+}
+
+@media (max-width: 1024px) {
+    .workshop:nth-child(2)>.carousel {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .workshop:nth-child(2)>.carousel {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+}
