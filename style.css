@@ -10,7 +10,7 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+.home-title {
     color: var(--blue);
     text-align: center;
     font-size: 3rem;
@@ -18,7 +18,7 @@ h1 {
     margin-top: 78px;
 }
 
-h1>span {
+.home-title>span {
     color: var(--orange);
 }
 
