@@ -18,7 +18,7 @@ h1>span {
 }
 
 section {
-    width: 1295px;
+    width: 100%;
     max-width: 1295px;
     margin: auto;
 }
@@ -95,16 +95,14 @@ section {
 
 .atelier:nth-child(2)>.carousel {
     width: 90%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
 }
 
 .atelier:nth-child(2)>.carousel>.card {
-    width: 262px;
-    height: 368px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    gap: 8px;
     border: solid 4px var(--orange);
     border-radius: 15px;
 }
@@ -115,6 +113,7 @@ section {
 
 .atelier:nth-child(2)>.carousel>.card>p {
     margin: auto;
+    min-height: 92px;
     width: 90%;
     font-size: 13px;
 }
@@ -127,6 +126,7 @@ section {
     display: flex;
     justify-content: space-between;
     margin: auto;
+    padding: 21px 0;
     width: 90%;
     color: var(--orange);
     font-size: 20px;
