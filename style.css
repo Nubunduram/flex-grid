@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --orange: #E06E3C;
-    --blue: #3964e8;
+    --blue: #3b66e8;
 }
 
 /* General */
@@ -13,7 +15,7 @@ h1 {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 78px;
 }
 
 h1>span {
@@ -62,14 +64,16 @@ section {
     color: var(--blue);
     font-size: 32px;
     width: 90%;
-    margin: auto;
-    margin-top: 32px;
+    margin: 32px auto;
+}
+
+.atelier>p>span {
+    color: var(--orange);
 }
 
 /* Atelier 1 */
 
 .atelier:nth-child(1) {
-    height: 457px;
     color: #fff;
 }
 
@@ -81,7 +85,6 @@ section {
     width: 90%;
     margin: auto;
     background-color: var(--blue);
-    height: 63px;
 }
 
 .atelier:nth-child(1)>nav>p {
