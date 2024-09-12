@@ -38,6 +38,7 @@ html {
 
 .workshop>.workshop-title {
     font-size: 2rem;
+    font-weight: 600;
     color: var(--blue);
 }
 
@@ -48,6 +49,7 @@ html {
 .workshop>h3 {
     color: var(--blue);
     font-size: 2rem;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -57,7 +59,8 @@ html {
 
 .workshop>p {
     color: var(--blue);
-    font-size: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 .workshop>p>span {
@@ -121,11 +124,13 @@ html {
 
 .workshop:nth-child(2)>.carousel>.card>p>span {
     color: var(--blue);
+    font-weight: 600;
 }
 
 .workshop:nth-child(2)>.carousel>.card>footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     margin: auto;
     padding: 11px 15px;
@@ -133,3 +138,7 @@ html {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+.workshop:nth-child(2)>.carousel>.card>footer>p:nth-child(2) {
+    font-size: 2rem;
+} 
