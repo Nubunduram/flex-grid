@@ -1,8 +1,14 @@
+:root {
+    --orange: #E06E3C;
+    --blue: #3964e8;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Montserrat;
 }
 
 main {
@@ -10,4 +16,84 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+h1 span {
+    color: var(--orange);
+}
+
+section {
+    width: 1295px;
+    max-width: 1295px;
+}
+
+.atelier {
+    border: dotted var(--orange) 4px;
+    margin-top: 100px;
+}
+
+.atelier h2 {
+    font-size: 32px;
+    color: var(--blue);
+    width: 90%;
+    margin: auto;
+    padding: 24px 0;
+}
+
+.atelier h2 span {
+    color: var(--orange);
+}
+
+.atelier:nth-child(1) {
+    height: 457px;
+    color: #fff;
+}
+
+.atelier:nth-child(1)>nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    background-color: var(--blue);
+    height: 63px;
+}
+
+.atelier:nth-child(1)>nav>p {
+    font-size: 32px;
+}
+
+.atelier:nth-child(1)>nav>ul {
+    display: flex;
+    font-size: 20px;
+    gap: 29px;
+}
+
+.atelier>h3 {
+    color: var(--blue);
+    font-size: 32px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.atelier>h3>span {
+    color: var(--orange);
+}
+
+.atelier>p {
+    color: var(--blue);
+    font-size: 32px;
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
 }
