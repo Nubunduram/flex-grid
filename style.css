@@ -4,12 +4,15 @@
 }
 
 /* General */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 
 h1 {
-    text-align: center;
     color: var(--blue);
-    font-weight: 700;
+    text-align: center;
     font-size: 48px;
+    font-weight: 700;
     margin-top: 50px;
 }
 
